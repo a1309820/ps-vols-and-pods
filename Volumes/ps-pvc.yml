@@ -8,4 +8,4 @@ spec:
   storageClassName: ps-fast
   resources:
     requests:
-      storage: 50Gi
+      storage: 10Gi

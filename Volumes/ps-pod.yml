@@ -4,7 +4,7 @@ metadata:
   name: first-pod
 spec:
   volumes:
-    - name: fast50g
+    - name: fast10g
       persistentVolumeClaim:
         claimName: ps-pvc
   containers:
@@ -16,4 +16,4 @@ spec:
     - "sleep 60m"
     volumeMounts: 
     - mountPath: /data
-      name: fast50g
+      name: fast10g
