@@ -1,0 +1,1 @@
+gcloud beta compute disks delete ps-vol --project=k8s-test-1-288222 --zone=us-central1-a
