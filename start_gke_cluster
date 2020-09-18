@@ -2,4 +2,6 @@ gcloud beta container --project "k8s-test-1-288222" clusters create "k8s-1" --zo
 
 gcloud container clusters get-credentials k8s-1 --zone us-central1-c --project k8s-test-1-288222
 
+gcloud config set project k8s-test-1-288222
+
 kubectl get nodes
