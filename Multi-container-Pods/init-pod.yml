@@ -11,6 +11,6 @@ spec:
     command: ['sh', '-c', 'until nslookup pluralsight-ftw; do echo waiting for pluralsight-ftw service; sleep 1; done; echo Service found!']
   containers:
     - name: web-ctr
-      image: nigelpoulton/web-app:1.0
+      image: web-app:1.0
       ports:
         - containerPort: 8080
